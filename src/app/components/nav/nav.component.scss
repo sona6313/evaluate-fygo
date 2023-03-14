@@ -1,0 +1,103 @@
+.main{
+    .navbar{
+        padding: 1rem;
+        display: flex;
+        gap:18rem;
+        justify-content: center;
+        align-items: center;
+      
+
+        //    .logo{
+           
+        //    }
+       
+           .nav_group{
+                display: flex;
+                .nav_items{
+                    font-style: normal;
+                    display: flex;
+                    gap:4rem;
+                    font-size: 1rem;
+                    .nav_active{
+                        color: #878694;
+                    }
+                }
+                 gap:3rem;
+                .contact{
+                   display: flex;
+                    justify-content: center;
+                     gap:1rem;
+                        .icon_img{
+                            font-size: 1rem;
+                            height: 2rem;
+                        }
+                        .text{
+                          display: flex;
+                        flex-direction: column; 
+                          .icon_head{
+                            color: #878694;
+                          }
+                        }
+                }
+        
+            }
+    }
+    
+      
+
+        
+    .center_body{
+        display: flex;
+         .body_img1{
+            margin-top: 4rem;
+            width: 18rem;
+        }   
+         
+        .center{
+            padding: 1rem;
+            margin-left: 7rem;
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2.3rem;
+            text-align: left;
+                .body_text{
+                    font-size: 3rem;
+                    .body_heading{
+                    color: #292733;           
+                    width: 30rem;
+                    }
+                .body_heading2{
+                    color: #00BFFF;
+                    font-weight: 900;
+                
+                }
+            }
+     
+            .buton-group{
+                display: flex;
+                gap:.5rem;
+                .button_1{
+                    justify-content: center;
+                    padding: 1rem;
+                    width: 15rem;
+                    border: none;
+                    border-radius: .5rem;
+                    background-color:#FFFFFF;
+                    box-shadow: 0px 3px 6px #00000029;
+                    font-style: normal;
+                    font-size: 1rem;
+                }
+                    .buton-group:hover button_1 {
+                        background-color: #00BFFF;
+                    }
+
+            }
+
+        }
+        .body_img2{
+           font-size: 10rem;
+        }
+    }
+    
+}
